@@ -1,4 +1,4 @@
-## Examples of how to load datasets using python and duckdb
+## Examples on how to load datasets using python and duckdb
 To run the examples, install environment using conda:
 ```
 conda env create -f environment.yml
