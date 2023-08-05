@@ -1,0 +1,9 @@
+name: duckdb-examples
+dependencies:
+  - python=3.11
+  - pandas
+  - pyarrow
+  - scikit-learn
+  - pip
+  - pip:
+      - duckdb
