@@ -21,7 +21,11 @@ Install DuckDB PostgreSQL extension:
 ```
 python -c "import duckdb; duckdb.execute('INSTALL postgres;')"
 ```
-
+Set PostgreSQL connection in `PostgreSQL/connection.yml` <br>
+If needed, create an example table:
+```
+python PostgreSQL/create_example_table_PostgreSQL.py
+```
 Run the examples:
 ```
 python PostgreSQL/read_from_postgresql.py
