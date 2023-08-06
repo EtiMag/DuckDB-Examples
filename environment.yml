@@ -7,4 +7,6 @@ dependencies:
   - pyyaml
   - pip
   - pip:
-      - 'duckdb'
+      - 'duckdb==0.8.1'
+      - 'psycopg2-binary'
+      - 'sqlalchemy'
