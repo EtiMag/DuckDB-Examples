@@ -17,10 +17,10 @@ engine = sqlalchemy.create_engine(f"postgresql://{user}:{password}@{host}:{port}
 # Create table example_table with some values, in schema [source_schema]
 with engine.begin() as connection:
     connection.execute(
-        sqlalchemy.text("CREATE TABLE {source_schema}.example_table "
-                        "(col1 INT, col2 INT, col3 INT)")
+        sqlalchemy.text(f"CREATE TABLE {source_schema}.example_table "
+                         "(col1 INT, col2 INT, col3 INT)")
     )
     connection.execute(
-        sqlalchemy.text("INSERT INTO {source_schema}.example_table "
-                        "VALUES (1, 2, 3), (4, 5, 6), (7, 8, 9)")
+        sqlalchemy.text(f"INSERT INTO {source_schema}.example_table "
+                         "VALUES (1, 2, 3), (4, 5, 6), (7, 8, 9)")
     )
