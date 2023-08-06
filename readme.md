@@ -19,7 +19,7 @@ python Parquet/read_from_parquet.py
 ### Load from PostgreSQL into DuckDB
 Install DuckDB PostgreSQL extension:
 ```
-python -c "import duckdb; duckdb.execute('INSTALL postgres; LOAD postgres;')"
+python -c "import duckdb; duckdb.execute('INSTALL postgres;')"
 ```
 
 Run the examples:
