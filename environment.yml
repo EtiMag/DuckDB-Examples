@@ -4,6 +4,7 @@ dependencies:
   - pandas
   - pyarrow
   - scikit-learn
+  - pyyaml
   - pip
   - pip:
       - 'duckdb'

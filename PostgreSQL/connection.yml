@@ -1,0 +1,6 @@
+host: postgresql-host
+database_name: postgresql-db
+user: user-example
+password: password
+port: 5432
+source_schema: public  # schema of the postgres database to load from
